@@ -23,7 +23,7 @@ describe('Batista', () => {
         //cy.get('p')
         cy.scrollTo(0, 1000)
         //cy.scrollTo(1000, 500)
-       //cy.scrollTo('top')
+        //cy.scrollTo('top')
     });
     it('Lista de usuarios', () => {
         cy.get('.active > .collapsible-body > ul > :nth-child(2) > a').click()
